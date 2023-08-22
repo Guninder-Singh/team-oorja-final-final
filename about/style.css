@@ -112,6 +112,7 @@ align-items: center;
 
 #found{
     width: 26vh;
+    margin-right:20px;
     height: 15vh;
     font-size: 23px;
 }
