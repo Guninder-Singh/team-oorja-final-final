@@ -169,12 +169,13 @@ color: white;
   #slider-page{
     height: 100%;
     width: 480px;
+    text-align:center;
   }
 
   #slider-page p {
      font-size: 7px;
-  width: 70%;
-margin-left: 20px;
+  width: 50%;
+
 padding-top: 20px;
 margin-bottom: -105px;
 text-align: center;
@@ -232,7 +233,7 @@ color: white;
 
 
 
-}
+          }
 
 
 
