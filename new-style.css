@@ -172,10 +172,10 @@ color: white;
   }
 
   #slider-page p {
-     font-size: 13px;
+     font-size: 7px;
   width: 70%;
-margin-left: 80px;
-padding-top: 50px;
+margin-left: 20px;
+padding-top: 20px;
 margin-bottom: -105px;
 text-align: center;
 color: white;
@@ -187,7 +187,7 @@ color: white;
  
   transform: translate(-50%, -50%);
   user-select: none;
-  width: 250px;
+  width: 150px;
   z-index: 998;
 }
 
@@ -195,8 +195,8 @@ color: white;
   position: absolute;
   
   transform: translate(-50%, -50%);
-  width: 250px;
-  height: 400px;
+  width: 150px;
+  height: 200px;
   border-radius: 80px;
   overflow: hidden;
   transition: all 300ms ease-in-out;
