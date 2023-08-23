@@ -179,7 +179,7 @@ color: white;
   width: 50%;
   align-items:center;
    padding-top: 20px;
-  margin-bottom: -105px;
+
   text-align: center;
    color: white;
     position:center;
@@ -189,7 +189,7 @@ color: white;
 
   .items {
   position: relative;
- 
+ margin-bottom:-40px;
   transform: translate(-50%, -50%);
   user-select: none;
   width: 150px;
