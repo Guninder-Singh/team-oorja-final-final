@@ -174,13 +174,13 @@ color: white;
   }
 
   #slider-page p {
-     font-size: 7px;
+     font-size: 10px;
   width: 50%;
-align-items:center;
-padding-top: 20px;
-margin-bottom: -105px;
-text-align: center;
-color: white;
+  align-items:center;
+   padding-top: 20px;
+  margin-bottom: -105px;
+  text-align: center;
+   color: white;
     position:center;
     left:30%;
   }
