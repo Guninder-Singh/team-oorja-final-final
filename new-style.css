@@ -167,7 +167,7 @@ color: white;
   }
 
   #slider-page{
-    height: 60%;
+    height: 60vh;
     width: 480px;
     text-align:center;
   }
@@ -180,6 +180,8 @@ padding-top: 20px;
 margin-bottom: -105px;
 text-align: center;
 color: white;
+    position:center;
+    left:30%;
   }
 
 
