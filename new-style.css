@@ -167,9 +167,10 @@ color: white;
   }
 
   #slider-page{
-    height: 60vh;
+    height: 50vh;
     width: 480px;
     text-align:center;
+    
   }
 
   #slider-page p {
