@@ -169,7 +169,7 @@ color: white;
   #slider-page{
     height: 50vh;
     overflow:hidden;
-    width: 480px;
+    width: 100%;
     text-align:center;
     postion:relative;
     
