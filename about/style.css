@@ -221,11 +221,15 @@ align-items: center;
 }
 
  .about-us-section .img-head{
+    .about-us-section .img-head{
     position: relative;
     overflow:hidden ;
-    width: 80px;
-    margin-right: 15px;
-    margin-left: -30px;
+    max-width: 400px;
+    margin-top:-80px;
+    margin-left: 90px;
+   left:30%;
+}
+
 }
  .about-us-section .img-head img{
     width: 5vh;
