@@ -166,8 +166,8 @@ color: white;
     z-index: -1;
   }
 
-  #slider-page{
-    height: 50vh;
+  #slider-page {
+    height: 30vh;
     overflow:hidden;
     width: 100%;
     text-align:center;
