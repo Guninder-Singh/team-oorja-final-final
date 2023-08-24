@@ -137,6 +137,7 @@
     color: white;
   }
 
+ 
   @media  (max-width: 480px) {
     #project {
       width: 100%;
@@ -150,8 +151,8 @@
    
     .image-slider {
       flex: 1;
-      height: 20vh; 
-      width: 40vh; 
+      height: 45vh; 
+      width: 100vh; 
       overflow: hidden;
       margin-top: 10vh;
       border-radius: 150px;
@@ -161,6 +162,19 @@
     }
 
 
+    
+    .image-slider-alternate {
+      flex: 1;
+      height: 45vh; 
+      width: 100vh; 
+      overflow: hidden;
+      margin-top: 10vh;
+      border-radius: 150px;
+      margin-left: 5vh; 
+      border: solid white;
+      margin-right: 5vh;
+    }
+
     .image-slider img {
       height: 100%;
       width: 100%;
@@ -168,9 +182,16 @@
     }
 
 
-    .text-paragraph h1{
-      margin-bottom: 5vh;
+    .text-paragraph-alternate h1{
+   position:relative;
       font-size: 35px;
+      margin-bottom:20px;
+      
+    }
+     .text-paragraph h1{
+   position:relative;
+      font-size: 35px;
+      margin-bottom:20px;
       
     }
 
@@ -179,26 +200,40 @@
       width: 40%;
       text-align: center;
       color:white;
-      font-size: 15px;
+      font-size: 10px;
       vertical-align: middle;
       margin-top: 10vh;
       margin-left: 5vh;
-      margin-right: 5vh;
-      margin-bottom: -20vh;
-      padding-bottom: -20vh;
+      margin-right: 2vh;
+      margin-bottom: -30vh;
+      
+    }
+
+     .text-paragraph-alternate {
+      flex: 1;
+      width: 40%;
+      text-align: center;
+      color:white;
+      font-size: 10px;
+      vertical-align: middle;
+      margin-top: 10vh;
+      margin-left: 5vh;
+      margin-right: 2vh;
+      margin-bottom: -30vh;
+      
     }
 
     .container {
       display: flex;
       background-color: black;
       height: 60vh;
-      width: 100% ;
-      margin-bottom: -1.3vh;
-      
+      width: 100%;
+      margin-bottom: 1.3vh;
     }
 
 
   }
+
 
 
 
