@@ -233,11 +233,34 @@ align-items: center;
     transition: transform .3s;
     left: 5%;
 }
-        }
 
+    }
+@media (max-width: 480px) {
+  /* Flex layout to stack elements vertically */
+  .about-us-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-us-section .col-12.col-lg-6 {
+    margin-top: 20px; /* Add some spacing between image and text */
+  }
 
+  /* Center the text and icons */
+  .about-us-section .text-head,
+  .about-us-section .text-para,
+  .about-us-section #icons {
+    text-align: center;
+  }
+  
+  /* Adjust image width */
+  .about-us-section .img-head img {
+    width: 100%; /* Make the image responsive */
+  }
+}
 
 
 
     
+         
 
