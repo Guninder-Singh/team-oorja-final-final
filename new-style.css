@@ -154,7 +154,7 @@ color: white;
 
 @media only screen and (max-width: 480px) {
   #video-page {
-     height: 70vh;
+    max-height: 60vh;
      width: 100%;
      position: relative;
   }
@@ -167,7 +167,7 @@ color: white;
   }
 
   #slider-page {
-    height: 30vh;
+    max-height: 60vh;
     display:flex;
     overflow:hidden;
     width: 100%;
@@ -177,7 +177,7 @@ color: white;
   }
 
   #slider-page p {
-     font-size: 10px;
+     font-size: 12px;
    width: 50%;
   align-items:center;
    padding-top: 20px;
@@ -195,11 +195,12 @@ color: white;
   user-select: none;
   width: 150px;
   z-index: 998;
+    align-items:center;
 }
 
 .items .item {
   position: absolute;
-  
+   align-items:center;
   transform: translate(-50%, -50%);
   width: 250px;
   height: 250px;
