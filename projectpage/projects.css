@@ -150,8 +150,8 @@
    
     .image-slider {
       flex: 1;
-      height: 40vh; 
-      width: 100vh; 
+      height: 20vh; 
+      width: 40vh; 
       overflow: hidden;
       margin-top: 10vh;
       border-radius: 150px;
