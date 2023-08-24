@@ -167,7 +167,8 @@ color: white;
   }
 
   #slider-page {
-    height: 600px;
+    height: 30vh;
+    display:flex;
     overflow:hidden;
     width: 100%;
     text-align:center;
