@@ -242,8 +242,8 @@ margin-left:120px;
 
 
   .footercontainer {
-  max-width: 100%;
-  padding: 70px 30px 20px;
+  max-width: 480px;
+  padding: 50px 20px 10px;
   text-align: center;
   background-color: rgba(18, 19, 26, 0.95);
   opacity: 0.96;
@@ -254,14 +254,14 @@ margin-left:120px;
 .socialicons {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .socialicons a {
   text-decoration: none;
   padding: 10px;
   background-color: #fff;
-  margin: 10px;
+  margin: 5px;
   border-radius: 50%;
 }
 
