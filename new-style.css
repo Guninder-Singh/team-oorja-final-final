@@ -177,14 +177,14 @@ color: white;
   }
 
   #slider-page p {
-     font-size: 12px;
+     font-size: 10px;
    width: 50%;
   align-items:center;
    padding-top: 20px;
   text-align: center;
    color: white;
     position:center;
-    left:30%;
+    left:0%;
   }
 
 
@@ -201,8 +201,8 @@ color: white;
   position: absolute;
   
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 80px;
   overflow: hidden;
   transition: all 300ms ease-in-out;
