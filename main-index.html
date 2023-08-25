@@ -99,24 +99,9 @@ projects.addEventListener('click', function() {
   $(".parent:not(#projects)").toggleClass("invisible");
 }, false);
 
-function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
 
 
-const menuToggle = document.getElementById('menu-toggle');
-const menuList = document.getElementById('menu-list');
-const menuLogo = document.getElementById('menu-logo'); // Replace with your logo/icon ID
 
-menuToggle.addEventListener('click', () => {
-    menuList.classList.toggle('active');
-});
-
-menuLogo.addEventListener('click', () => {
-    if (menuList.classList.contains('active')) {
-        menuList.classList.remove('active');
-    }
-});
 
 
   </script>
