@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./new-style.css">
     <link rel="stylesheet" href="./landing-page/landing-page/dist/eclipse.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
@@ -39,49 +39,45 @@
   <style> 
   @media screen only and (max-width:480px){
 
-      body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-#menu-button {
-    display: block;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
-#side-menu {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background-color: #333;
-    color: #fff;
-    transition: left 0.3s;
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
-#side-menu ul {
-    list-style: none;
-    padding: 0;
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-#side-menu li {
-    padding: 15px;
-    border-bottom: 1px solid #444;
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-#side-menu a {
-    color: #fff;
-    text-decoration: none;
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 
@@ -90,13 +86,7 @@
 
 
       @media screen and (max-width: 480px) {
-    #side-menu {
-        left: -100%;
-    }
-
-    #side-menu.active {
-        left: 0;
-    }
+   
 }
   </style>
 
@@ -104,15 +94,19 @@
 
 <div  class="main-content">
 
- <button id="menu-button">&#9776; Menu</button>
-    <nav id="side-menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     
   <nav class="navigationWrapper">
     <div class="logoWrapper">
@@ -173,12 +167,14 @@ projects.addEventListener('click', function() {
   $(".parent:not(#projects)").toggleClass("invisible");
 }, false);
 
-const menuButton = document.getElementById("menu-button");
-const sideMenu = document.getElementById("side-menu");
-
-menuButton.addEventListener("click", () => {
-    sideMenu.classList.toggle("active");
-});
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 
 
