@@ -208,7 +208,7 @@ align-items: center;
 
 
 
-@media only screen and< (min-width:400px) and (max-width: 480px) {
+@media only screen and (min-width:400px) and (max-width: 480px) {
 
 
  .about-us-section{
@@ -221,7 +221,7 @@ align-items: center;
 }
 
 }
-@media only screen and< (min-width:400px) and (max-width: 480px)
+@media only screen and (min-width:400px) and (max-width: 480px)
 {
     .about-us-section .img-head{
       position: relative;
@@ -234,7 +234,7 @@ align-items: center;
 
 }
 
-@media only screen and< (min-width:400px) and (max-width: 480px){
+@media only screen and (min-width:400px) and (max-width: 480px){
  .about-us-section .img-head img{
    max-width: 50vh;
     max-height: 40vh;
@@ -244,7 +244,7 @@ align-items: center;
 
 }
 
-@media only screen and< (min-width:400px) and (max-width: 480px){
+@media only screen and (min-width:400px) and (max-width: 480px){
 .about-us-section .text-head{
     font-size: 15px;
     color: #33bec8;
@@ -288,7 +288,7 @@ align-items: center;
 }
 
 }
-@media only screen and< (min-width:400px) and (max-width: 480px)
+@media only screen and (min-width:400px) and (max-width: 480px)
 #link{
     height: 5vh;
   position:relative;
@@ -313,10 +313,10 @@ align-items: center;
     margin-right:20px;
     height: 15vh;
     font-size: 23px;
-  display:none;
+   display:none;
 }
 }
-@media only screen and< (min-width:400px) and (max-width: 480px){
+@media only screen and (min-width:400px) and (max-width: 480px){
   .about-us-section .col-12.col-lg-6 {
     margin-top: 20px; /* Add some spacing between image and text */
   }
