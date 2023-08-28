@@ -5,6 +5,7 @@
   width: 100%;
   background-image: url('./BANNER.png');
   z-index: 1;
+  display:flex;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -15,6 +16,7 @@
   background-color: black;
   height: 80vh;
   width: 400vh ;
+   display:flex;
   margin: 0;
   overflow: hidden;
   padding-right: 30vh;
@@ -23,6 +25,7 @@
 }
 *{
   margin: 0;
+   display:flex;
   padding: 9;
 }
 
@@ -33,6 +36,7 @@
   overflow: hidden;
   margin-top: 10vh;
   border-radius: 100px;
+   display:flex;
   margin-left: 0vh; 
   border: solid white;
   margin-right: 15vh;
@@ -43,6 +47,7 @@
   height: 60vh; 
   width: 80vh; 
   overflow: hidden;
+   display:flex;
   margin-top: 10vh;
   border-radius: 100px;
   margin-left: 15vh; 
@@ -53,16 +58,19 @@
   height: 100%;
   width: 100%;
   object-fit: cover; 
+   display:flex;
   overflow:visible;
 }
 
 .text-paragraph h1{
   margin-bottom: 5vh;
+   display:flex;
   font-size: 70px;
 }
 .text-paragraph  {
   flex: 1;
   width: 80%;
+   display:flex;
   text-align: center;
   color:white;
   font-size: 19px;
@@ -74,6 +82,7 @@
 .text-paragraph-alternate  {
   flex: 1;
   width: 80%;
+   display:flex;
   text-align: center;
   color:white;
   font-size: 19px;
@@ -86,6 +95,7 @@
     background-color: #111;
     border:#fff;
     border-radius: 10px;
+    display:flex;
     
   }
   
@@ -94,6 +104,7 @@
     padding: 70px 30px 20px;
     text-align: center;
     background-color: rgba(18, 19, 26, 0.95);
+     display:flex;
     opacity: 0.96;
    
     
@@ -102,6 +113,7 @@
   .socialicons {
     display: flex;
     justify-content: center;
+     display:flex;
     margin-bottom: 20px;
   }
   
@@ -111,10 +123,13 @@
     background-color: #fff;
     margin: 10px;
     border-radius: 50%;
+     display:flex;
+    
   }
   
   .socialicons a i {
     font-size: 2em;
+     display:flex;
     color: #000;
     opacity: 0.9;
   }
@@ -122,6 +137,7 @@
   .socialicons a:hover i {
     color: white;
     transition: 0.5s;
+     display:flex;
   }
   
   .footerbottom {
@@ -130,11 +146,13 @@
     text-align: center;
     position: relative;
     z-index: 1;
+     display:flex;
     color: white;
   }
   
   .footerbottom pre {
     color: white;
+     display:flex;
   }
 
 }
