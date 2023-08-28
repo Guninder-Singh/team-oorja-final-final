@@ -1,4 +1,4 @@
-
+@media screen only and(max-width:1025pc){
 
 #project{
   height: 100vh;
@@ -136,6 +136,8 @@
   .footerbottom pre {
     color: white;
   }
+
+}
 
  
   @media screen only and (min-width:400px) and  (max-width: 480px) {
