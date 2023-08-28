@@ -1,4 +1,4 @@
-@media screen only and(max-width:1496px){
+@media screen only and (min-width:769px) and(max-width:1024px){
 
 #project{
   height: 100vh;
